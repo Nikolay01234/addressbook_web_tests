@@ -22,6 +22,7 @@ public class GroupRemovalTests {
     }
 
     //test_commit
+
     @AfterEach
     public void tearDown() {
         driver.findElement(By.linkText("Logout")).click();
