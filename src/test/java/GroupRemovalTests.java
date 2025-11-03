@@ -21,13 +21,12 @@ public class GroupRemovalTests {
         driver.findElement(By.cssSelector("input:nth-child(7)")).click();
     }
 
-    //test_commit
-
     @AfterEach
     public void tearDown() {
         driver.findElement(By.linkText("Logout")).click();
         driver.quit();
     }
+
 
     private boolean isElementPresent(By locator) {
         try {
