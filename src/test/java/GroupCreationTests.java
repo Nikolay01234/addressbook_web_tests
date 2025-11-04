@@ -21,7 +21,7 @@ public class GroupCreationTests {
             driver.findElement(By.xpath("//input[@value=\'Login\']")).click();
         }
     }
-
+    
     @Test
     public void canCreateGroup() {
         if (! isElementPresent(By.name("new"))) {
